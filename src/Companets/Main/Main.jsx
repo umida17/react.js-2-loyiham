@@ -1,6 +1,9 @@
 import './Main.css'
 
 import bitmap from "../Main/png/Bitmap.png"
+import path from "../Main/png/Path (3).png"
+import dollr from "../Main/png/dollr.png"
+import user from "../Main/png/user(2).png"
 
 function Main() {
     return (
@@ -29,7 +32,34 @@ function Main() {
                 <section className='section2'>
                     <div className="container">
                         <div className="section2-container">
-                            
+                            <div className="chiziq"></div>
+                            <h3>We’re different</h3>
+                            <div className="cards">
+
+                                <div className="card">
+                                 <img src={path} alt="" />
+                                 <h2>Snappy Process</h2>
+                                 <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+
+                                </div>
+
+                                <div className="card1">
+                                 <img src={dollr} alt="" />
+                                 <h2>Affordable Prices</h2>
+                                 <p>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+
+                                </div>
+
+
+                                <div className="card2">
+                                 <img src={user} alt="" />
+                                 <h2>People First</h2>
+                                 <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+
+                                </div>
+
+
+                            </div>
                         </div>
                     </div>
                 </section>
