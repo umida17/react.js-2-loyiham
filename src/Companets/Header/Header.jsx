@@ -13,7 +13,7 @@ import insure from "../Header/Hero/INSURE.svg";
                             <a href="#">HOW WE WORK</a>
                             <a href="#">BLOG</a>
                             <a href="#">ACCOUNT</a>
-                            <a href="#">VIEW PLANS</a>
+                            <button className='view'>VIEW PLANS</button> 
                         </div>
                     </div>
                   </div>

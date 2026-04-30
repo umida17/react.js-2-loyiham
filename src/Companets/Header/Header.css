@@ -34,4 +34,42 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 5px;
+}
+a{
+    position: relative;
+     color: #333;
+    padding-bottom: 4px;  
+     font-weight: 700;
+    font-size: 13px;
+     line-height: 100%;
+     text-align: center;
+
+}
+
+ a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;       
+    height: 2px;     
+    background: #222223;  
+    transition: width 0.3s ease; 
+}
+a:hover{
+    color: rgb(138, 96, 205);
+}
+a:hover::after {
+    width: 100%;
+}
+
+.view{
+    padding: 8px 18px;
+     font-weight: 700;
+    font-size: 13px;
+     line-height: 100%;
+    letter-spacing: 1.5px;
+    text-align: center;
+
 }
