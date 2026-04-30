@@ -30,9 +30,23 @@ function Footer() {
                 </div>
 
                 <div className="help">
-                    <h2>OUR COMPANY</h2>
-                    <a href="#">HOW WE WORK</a>
-                    <a href="#">WHY INSURE?</a>
+                    <h2>HELP ME</h2>
+                    <a href="#">FAQ</a>
+                    <a href="#">TERMS OF USE</a>
+                </div>
+
+
+                 <div className="CONTACT">
+                    <h2>CONTACT</h2>
+                    <a href="#">SALES</a>
+                    <a href="#">SUPPORT</a>
+                </div>
+
+                
+                 <div className="OTHERS">
+                    <h2>OTHERS</h2>
+                    <a href="#">CAREERS</a>
+                    <a href="#">PRESS</a>
                 </div>
 
             </div>
