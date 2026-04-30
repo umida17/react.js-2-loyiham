@@ -1,14 +1,14 @@
 import './Main.css'
-
 import bitmap from "../Main/png/Bitmap.png"
 import path from "../Main/png/Path (3).png"
 import dollr from "../Main/png/dollr.png"
 import user from "../Main/png/user(2).png"
+   import group from "../Main/png/Group 10.svg"
 
 function Main() {
     return (
         <>
-            <main>
+            <div className="main">
                 <section className="section1">
                     <div className="container">
                         <div className="section1-conatiner">
@@ -29,41 +29,39 @@ function Main() {
                     </div>
                 </section>
 
-                <section className='section2'>
+                <section className="section2">
                     <div className="container">
-                        <div className="section2-container">
                             <div className="chiziq1"></div>
-                            <h3 className='wer'>We’re different</h3>
+                            <h3 className='wer'>We're different</h3>
                             <div className="cards">
-
                                 <div className="card">
                                  <img className='path' src={path} alt="" />
-                                 <h2 className='snap'>Snappy Process</h2>
-                                 <p className='our'>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
-
-                                </div>
-
+                                 <h2 className='snap'> Snappy Process</h2>
+                                 <p className='our'>  Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p> </div>
                                 <div className="card1">
-                                 <img className='path1' src={dollr} alt="" />
-                                 <h2  className='snap'>Affordable Prices</h2>
-                                 <p className='our'>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
-
-                                </div>
-
-
+                                 <img  className='path1' src={dollr} alt="" />
+                                 <h2 className='snap'>Affordable Prices</h2>
+                                 <p className='our'>We dont want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>  </div>
                                 <div className="card2">
-                                 <img className='path'src={user} alt="" />
+                                 <img className='path' src={user} alt="" />
                                  <h2 className='snap'>People First</h2>
-                                 <p className='our'>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
-
+                                 <p className='our'>Our application process can be completed in minutes, not hours. Don't get stuck filling in tedious forms.</p>
                                 </div>
-
-
                             </div>
                         </div>
-                    </div>
+                    
                 </section>
-            </main>
+
+                <section className='section3'>
+                        <div className="container"> 
+                            <div className="section3-container">
+                                <h3 className=''>Find out more about how we work</h3>
+                                <button>HOW WE WORK</button>
+                                <img src={group} alt="" />
+                            </div>
+                        </div>
+                </section>
+           </div>
         </>
     )
  }
