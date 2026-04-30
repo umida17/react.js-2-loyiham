@@ -172,6 +172,29 @@
 }
 
 
+.naqw{
+    margin-right: -80px;
+}
+
+.toplam{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 350px;
+}
+
+.werq{
+     margin-right: -330px;
+     background: none;
+     padding: 13px 24px;
+     border-color: #FFFFFF;
+     color: white;
+     font-weight: 700;
+    font-size: 13px;
+     line-height: 100%;
+    letter-spacing: 1.5px;
+}
+
 
 
 

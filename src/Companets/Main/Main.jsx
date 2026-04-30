@@ -55,9 +55,11 @@ function Main() {
                 <section className='section3'>
                         <div className="container"> 
                             <div className="section3-container">
-                                <h3 className='work'>Find out more about how we work</h3>
-                                <button>HOW WE WORK</button>
-                                <img className='' src={group} alt=""/>
+                                 <div className='toplam'>
+                                    <h3 className='work'>Find out more about how we work</h3>
+                                 <button className="werq" >HOW WE WORK</button>
+                                 </div>
+                                <img className='naqw' src={group} alt=""/>
                             </div>
                         </div>
                 </section>
