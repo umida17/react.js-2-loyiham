@@ -1,4 +1,7 @@
 import "./Footer.css"
+
+
+
 import insure from "../Footer/foto.png/INSURE.png"
 import fesbok from "../Footer/foto.png/feskbook.svg"
 import twiter from "../Footer/foto.png/twiter.svg"
@@ -9,7 +12,7 @@ import inst from "../Footer/foto.png/inst.svg"
 function Footer() {
     return(
         <>
-        <div className="Footer">
+        <div className="footer">
         <div className="container">
             <div className="footer-container">
                 <img src={insure} alt="" />
@@ -17,7 +20,7 @@ function Footer() {
                     <img src={fesbok} alt="" />
                     <img src={twiter} alt="" />
                     <img src={icon} alt="" />
-                    <img src={icon} alt="" />
+                    <img src={inst} alt="" />
                 </div>
 
             </div>
