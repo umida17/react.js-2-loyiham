@@ -1,5 +1,4 @@
-import './Footer.css'
-
+import "./Footer.css"
 
 
 import insure from "../Footer/foto.png/INSURE.png"
