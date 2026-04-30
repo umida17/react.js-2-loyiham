@@ -32,8 +32,8 @@ function Main() {
                 <section className='section2'>
                     <div className="container">
                         <div className="section2-container">
-                            <div className="chiziq"></div>
-                            <h3>We’re different</h3>
+                            <div className="chiziq1"></div>
+                            <h3 className='wer'>We’re different</h3>
                             <div className="cards">
 
                                 <div className="card">

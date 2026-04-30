@@ -76,5 +76,24 @@
 }
 
 .section2{
+    margin-top: 280px;
+}
+
+.chiziq1{
+    width: 110px;
+    height: 2px;
+    background: #C396C6;
+    margin-bottom: 60px;
+}
+
+.wer{
+     font-weight: 400;
+    font-size: 72px;
+     line-height: 64px;
+    letter-spacing: -1px;
+    margin-bottom: 90px;
+}
+
+.cards{
     
 }
