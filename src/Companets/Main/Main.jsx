@@ -3,7 +3,7 @@ import bitmap from "../Main/png/Bitmap.png"
 import path from "../Main/png/Path (3).png"
 import dollr from "../Main/png/dollr.png"
 import user from "../Main/png/user(2).png"
-   import group from "../Main/png/Group 10.svg"
+import group from "../Main/png/Group 10.svg"
 
 function Main() {
     return (
@@ -55,9 +55,9 @@ function Main() {
                 <section className='section3'>
                         <div className="container"> 
                             <div className="section3-container">
-                                <h3 className=''>Find out more about how we work</h3>
+                                <h3 className='work'>Find out more about how we work</h3>
                                 <button>HOW WE WORK</button>
-                                <img src={group} alt="" />
+                                <img className='' src={group} alt=""/>
                             </div>
                         </div>
                 </section>
