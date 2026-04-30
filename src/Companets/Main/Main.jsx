@@ -37,8 +37,8 @@ function Main() {
                             <div className="cards">
 
                                 <div className="card">
-                                 <img src={path} alt="" />
-                                 <h2>Snappy Process</h2>
+                                 <img className='path' src={path} alt="" />
+                                 <h2 className='snap'>Snappy Process</h2>
                                  <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
 
                                 </div>
