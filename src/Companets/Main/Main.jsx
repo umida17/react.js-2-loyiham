@@ -25,6 +25,14 @@ function Main() {
                         </div>
                     </div>
                 </section>
+
+                <section className='section2'>
+                    <div className="container">
+                        <div className="section2-container">
+                            
+                        </div>
+                    </div>
+                </section>
             </main>
         </>
     )
