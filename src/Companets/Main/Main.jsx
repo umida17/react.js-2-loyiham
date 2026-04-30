@@ -39,22 +39,22 @@ function Main() {
                                 <div className="card">
                                  <img className='path' src={path} alt="" />
                                  <h2 className='snap'>Snappy Process</h2>
-                                 <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+                                 <p className='our'>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
 
                                 </div>
 
                                 <div className="card1">
-                                 <img src={dollr} alt="" />
-                                 <h2>Affordable Prices</h2>
-                                 <p>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+                                 <img className='path1' src={dollr} alt="" />
+                                 <h2  className='snap'>Affordable Prices</h2>
+                                 <p className='our'>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
 
                                 </div>
 
 
                                 <div className="card2">
-                                 <img src={user} alt="" />
-                                 <h2>People First</h2>
-                                 <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+                                 <img className='path'src={user} alt="" />
+                                 <h2 className='snap'>People First</h2>
+                                 <p className='our'>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
 
                                 </div>
 
