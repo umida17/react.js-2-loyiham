@@ -28,7 +28,14 @@
 }
 
 .Ocompany{
-    display: flex;
-    align-items: center;
-    padding: 30px;
+     width: 200px;
+}
+
+h2{
+     font-weight: 700;
+    font-size: 13px;
+     line-height: 100%;
+    letter-spacing: 1.5px;
+    color: #838383;
+    margin-bottom: 36px;
 }
