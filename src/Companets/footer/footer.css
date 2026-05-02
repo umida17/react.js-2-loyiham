@@ -56,22 +56,11 @@ a{
 }
 
  @media (max-width: 768px) {
-    .section1 { text-align: center; padding-top: 100px; }
-    
-    .section1 .top { 
-        flex-direction: column-reverse;  
-    }
-    
-    .section1-right { text-align: center; }
-    
-    .section3-container { 
-        flex-direction: column; 
-        text-align: center; 
-    }
+     
     
     .footer-container, .footer-finish {
         flex-direction: column;
         text-align: center;
     }
 }
-Muhim tavs
+ 
