@@ -42,4 +42,6 @@ h2{
 
 a{
     display: flex;
+     justify-content: space-between;
+    padding: 10px;
 }
