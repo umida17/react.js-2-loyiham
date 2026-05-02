@@ -50,10 +50,7 @@ a{
 
 
 
- @media (max-width: 992px) {
-    .your { font-size: 40px; width: 100%; }
-    .get { width: 100%; }
-}
+ 
 
  @media (max-width: 768px) {
      
