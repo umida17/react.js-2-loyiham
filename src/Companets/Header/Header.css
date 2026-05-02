@@ -13,15 +13,13 @@
     padding: 20px;
 }
 
-.header{
-    height: 70px;
-    background: #f3f2f7;   
-    position: fixed;   
-    top: 0;             
-    left: 0;            
-    width: 100%;      
-    z-index: 1000;     
-    background-position: center;
+.header {
+    background: #f3f2f7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 0;
 }
 
 .home{
@@ -30,11 +28,10 @@
     gap: 25px;
 }
 
-.header-container{
+.header-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding-top: 5px;
+    align-items: center;
 }
 a{
     position: relative;
