@@ -1,6 +1,7 @@
-.section1{
+.section1 {
     background: #2D2641;
-    height: 680px;
+    padding: 80px 0;  
+    height: 800px;
 }
 
 .section1-conatiner{
@@ -15,15 +16,18 @@
      
 }
 
-.top{
+.top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;  
+    gap: 30px;
 }
 
-.section1-left{
-    width: 540px;
-    margin-top: -290px;
+.section1-left {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 0;  
 }
 
 .your{
@@ -32,8 +36,10 @@
      line-height: 64px;
      width: 500px;
     color: white;
-    margin-bottom: 19px;
+    margin-bottom: 19px; 
+    width: 100%;
 }
+
 
 .get{
      font-weight: 400;
@@ -67,16 +73,17 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);  
 }
 
-.section1-right{
-    width: 49%;
-     transition: all 0.6s ease-in-out;
+.section1-right {
+    width: 100%;
+    max-width: 45%;
+    transition: all 0.6s ease-in-out;
 }
 .section1-right:hover{
     transform: translateY(-20px);
 }
 
-.section2{
-    margin-top: 280px;
+.section2 {
+    margin-top: 100px;
 }
 
 .chiziq1{
@@ -94,15 +101,19 @@
     margin-bottom: 90px;
 }
 
-.cards{
+.cards {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 150px;
+    flex-wrap: wrap;  
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
-.card{
-    width: 350px;
+.cards {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 20px;
+    justify-content: center;
 }
 
 .path{
@@ -171,16 +182,19 @@
     width: 430px;
 }
 
+.section1-rid{
+    width: 100%;
+}
 
 .naqw{
     margin-right: -80px;
 }
 
-.toplam{
+.toplam {
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    gap: 350px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
 }
 
 .werq{
@@ -196,9 +210,56 @@
 }
 
 
+ @media (max-width: 800px) {
+    .top {
+        flex-direction: column-reverse;  
+        text-align: center;
+    }
+    
+    .section1-left, .section1-right {
+        max-width: 100%;
+        margin: 0;
+    }
+    .section1{
+        height: auto;
+    }
+    .naqw{
+        display: none;
+    }
+    .your { font-size: 40px; }
+    
+    .wer { font-size: 40px; margin-bottom: 40px; }
+    .get{
+        font-size: 12px;
+        width: 350px;
+    }
+    .section3-container {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .toplam {
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .work {
+        width: 100%;
+        font-size: 32px;
+    }
 
+    .werq { margin-right: 0; }
+}
 
+@media(max-width: 495px){
+    .section3-container{
+        height: 390px;
+    }
+     .get{
+        font-size: 10px;
+        width: 250px;
+    }
+}
 
 
 

@@ -71,8 +71,7 @@ a:hover::after {
 
 }
 
-/* 1. Hamburger ikonkasini yashirish (Desktop uchun) */
-.menu-icon {
+ .menu-icon {
     display: none;
     flex-direction: column;
     cursor: pointer;
@@ -86,17 +85,16 @@ a:hover::after {
 }
 
 #menu-toggle {
-    display: none; /* Checkboxni yashiramiz */
+    display: none;  
 }
 
-/* 2. 700px dan kichik ekranlar uchun media query */
-@media (max-width: 700px) {
+ @media (max-width: 800px) {
     .menu-icon {
-        display: flex; /* Telefonlarda ikonkani ko'rsatamiz */
+        display: flex;  
     }
 
     .home {
-        display: none; /* Asl menyuni yashiramiz */
+        display: none; 
         position: absolute;
         top: 70px;
         left: 0;
@@ -109,8 +107,7 @@ a:hover::after {
         text-align: center;
     }
 
-    /* Checkbox bosilganda .home ni ko'rsatish */
-    #menu-toggle:checked ~ .home {
+     #menu-toggle:checked ~ .home {
         display: flex;
     }
 }

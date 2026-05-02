@@ -21,7 +21,7 @@ function Main() {
                             </div>
 
                             <div className="section1-right">
-                                 <img src={bitmap}alt="" />       
+                                 <img className='section1-rid' src={bitmap}alt="" />       
                             </div>
                             </div>
                              
