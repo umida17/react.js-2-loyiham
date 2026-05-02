@@ -50,8 +50,7 @@ a{
 
 
 
-/* 1. PLANSHETLAR VA KICHIK NOUBKLAR (992px gacha) */
-@media (max-width: 992px) {
+ @media (max-width: 992px) {
     .your { font-size: 40px; width: 100%; }
     .get { width: 100%; }
 }
@@ -60,7 +59,7 @@ a{
     .section1 { text-align: center; padding-top: 100px; }
     
     .section1 .top { 
-        flex-direction: column-reverse; /* Rasm tepada, tekst pastda bo'ladi */
+        flex-direction: column-reverse;  
     }
     
     .section1-right { text-align: center; }
