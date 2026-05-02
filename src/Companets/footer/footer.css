@@ -48,16 +48,3 @@ a{
 }
 
 
-
-
- 
-
- @media (max-width: 768px) {
-     
-    
-    .footer-container, .footer-finish {
-        flex-direction: column;
-        text-align: center;
-    }
-}
- 
