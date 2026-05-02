@@ -7,9 +7,9 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     border-bottom: 1px solid silver;
-    padding: ;-top: 55px;
+    padding-top: 55px;
 }
 
 .icon{
@@ -17,4 +17,17 @@
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+}
+
+.footer-finish{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Ocompany{
+    display: flex;
+    padding: 30px;
 }
